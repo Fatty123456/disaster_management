@@ -1,0 +1,39 @@
+.m1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+  }
+  
+  .m2 {
+    width: 600px; /* Increase the width of the container */
+    max-width: 80%; /* Limit the maximum width to prevent it from becoming too wide on larger screens */
+    background-color: #fff;
+    padding: 30px 50px; /* Increase the padding around the form elements */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .margin {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .btn-success:hover {
+    background-color: #1e7e34;
+  }

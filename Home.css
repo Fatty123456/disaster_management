@@ -1,0 +1,106 @@
+/* Home.css */
+
+/* Font */
+.font {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #ff8400; /* Change background color */
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Navbar brand/logo */
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: auto; /* Push to the left */
+  }
+  
+  /* Navbar links */
+  .navbar-nav {
+    margin: 0 auto; /* Center align */
+  }
+  
+  .nav-link {
+    color: #000; /* Black color for links */
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #f8f9fa; /* Hover background color */
+  }
+  
+  .nav-link.active,
+  .nav-link:focus {
+    background-color: #e9ecef; /* Active/focus background color */
+  }
+  
+  /* Navbar toggler button styles */
+  .navbar-toggler {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  /* Navbar toggler icon styles */
+  .navbar-toggler-icon {
+    background-color: red; /* Set custom icon */
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px;
+  }
+  
+  /* Login/Signup options */
+  .ml-auto {
+    margin-left: auto; /* Push to the right */
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 960px;
+  }
+  
+  .container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  /* Flex container styles */
+  .d-flex {
+    display: flex;
+  }
+  
+  .justify-content-between {
+    justify-content: space-between; /* Evenly space items */
+  }
+  
+  /* Margin and padding utilities */
+  .mt-3,
+  .my-3 {
+    margin-top: 1rem !important;
+  }
+  
+  .mt-5,
+  .my-5 {
+    margin-top: 3rem !important;
+  }
+  
+  /* Paragraph styles */
+  p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  /* Image styles */
+  img {
+    object-fit: cover;
+  }
+  
